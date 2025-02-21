@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Capa 1: Fondo Blanco -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/>
+        </shape>
+    </item>
+
+    <!-- Capa 2: Gradiente diagonal principal -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#578EEA99"
+                android:centerColor="#2251DE99"
+                android:endColor="#00000000"
+                android:type="linear"/>
+        </shape>
+    </item>
+
+    <!-- Capa 3: Franjas diagonales con transparencia -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#00000000"
+                android:centerColor="#5792EA"
+                android:endColor="#0728D8"
+                android:type="linear"/>
+        </shape>
+    </item>
+
+    <!-- Capa 4: Patrón de franjas más claras -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="#578EEA66"
+                android:centerColor="#72B2EF66"
+                android:endColor="#0730D866"
+                android:type="linear"/>
+        </shape>
+    </item>
+
+</layer-list>
